@@ -1,0 +1,25 @@
+{
+  "product": [
+    {
+      "img": "https://www.next.co.uk/nxtcms/resource/image/4806360/portrait_ratio1x1/305/305/3e919390072d0b53f7e8300d0e6f2dbd/BFB03EFADA2FEFAC8ACEFD7A98916741/girls.jpg",
+      "title": "hghy",
+      "cate": "men",
+      "price": "23354",
+      "id": 5
+    },
+    {
+      "img": "https://i.pinimg.com/736x/4a/2d/6e/4a2d6e05b76c45c683cac34886fa0f4c--track.jpg",
+      "title": "gnfjyg",
+      "cate": "men",
+      "price": "105",
+      "id": 6
+    },
+    {
+      "img": "https://img.freepik.com/free-photo/green-park-view_1417-1492.jpg?w=2000",
+      "title": "cvfdhgr",
+      "cate": "women",
+      "price": "6457",
+      "id": 7
+    }
+  ]
+}

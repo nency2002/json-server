@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #output img{
+            width: 250px;
+            height: 300px;
+        }
+        #output{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+    </style>
+</head>
+
+<body>
+    <form id="form">
+        <h2>Product Information</h2>
+        <div class="form-group">
+            <label for="img">Image URL:</label>
+            <input type="url" placeholder="Enter the image URL" id="img">
+        </div>
+        <div class="form-group">
+            <label for="title">Title:</label>
+            <input type="text" placeholder="Enter the title" id="title">
+        </div>
+        <div class="form-group">
+            <label for="price">Price:</label>
+            <input type="number" placeholder="Enter the price" id="price">
+        </div>
+        <div class="form-group">
+            <label for="cate">categorie:</label>
+            <input type="text" placeholder="Enter the categorie" id="cate">
+        </div>
+        <input type="submit" value="post" id="btn">
+
+    </form>
+  
+    <div id="output"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
